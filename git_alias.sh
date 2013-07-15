@@ -1,0 +1,17 @@
+git config --global alias.viewauthors-all "log --all --format='%aN <%aE>'"
+git config --global alias.clone-hello "clone http://github.com/Taddie/HelloGit.git"
+git config --global alias.alias "config --get-regexp 'alias.*'"
+git config --global alias.ck "checkout"
+git config --global alias.viewlatestcommits "log -3 --oneline --format='%cN %cr' --stat"
+git config --global alias.viewlatestcommitids "log -3 --oneline --abbrev-commit --stat"
+git config --global alias.update-remote-all-1 "remote -v update"
+git config --global alias.update-remote-all-2 "fetch -v origin"
+git config --global alias.view-pushable-all "log --branches --not --remotes=origin --name-status"
+git config --global alias.viewlatestcommits-all "log -3 --oneline --format='%cN %cr' --stat --all"
+git config --global alias.viewlatestcommitids-all "log -3 --oneline --abbrev-commit --stat --all"
+git config --global alias.st "status"
+git config --global alias.cleanall "clean -fdx"
+git config --global alias.brd "branch -D"
+git config --global alias.brv "branch -av"    ## VIEW BRANCH WITH CORRESPONDING LATEST COMMITs.
+git config --global alias.bra "branch -a"
+
